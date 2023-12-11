@@ -303,5 +303,5 @@ const list = [
 
   const user3ToDo = list.filter(todo => todo.completed === false);
 
-  console.log(user3ToDo);
-  console.log(user3ToDo.length);
+user3ToDo.forEach(curr => console.log("To Do: " + curr.title));
+  console.log(user3ToDo.length + " things to do.");
